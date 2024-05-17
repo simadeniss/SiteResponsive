@@ -1,0 +1,92 @@
+body{
+    margin: 50px 50px 0px 50px ;
+    background-color:whitesmoke;
+}
+
+.logo{
+    width: 100px;
+}
+
+h1{
+    font-size: 5rem;
+    color: #00215E;
+    font-family: 'Lora';
+}
+
+.footer{
+    text-align: center;
+    background-color: #00215E;
+    color: #D20062;
+    clear: both;
+}
+
+.site{
+    color: #D20062;
+    text-transform:uppercase;
+}
+
+.image-tile{
+    width: 400px;
+    border: #D20062;
+    background-color: white;
+    border-width: 5px;
+    border-style:solid;
+    border-radius: 10%;
+    float:left;
+    margin: 25px;
+}
+
+.title{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto';
+}
+
+.info{
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+
+.card{
+    display: inline;
+    width: 48%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+@media (max-width:600px) {
+    .card{
+        display: block;
+        width: 100%;
+    }
+
+    .logo{
+        margin-left: 40%;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .image-tile{
+        width: 100%;
+        margin: 50px 0px;
+    }
+}
+
+@media (max-width:1400px) and (min-width:601px){
+    .image-tile{
+        display: block;
+        width: 100%;
+        margin: 50px 0px;
+    }
+
+
+}
